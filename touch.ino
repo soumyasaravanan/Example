@@ -12,7 +12,7 @@ void loop() {
 
   if (touchState == HIGH) {  // If the sensor is touched
     digitalWrite(ledPin, HIGH);  // Turn on the LED
-    Serial.println("Touch detected!");
+    Serial.println("Touch is detected!");
   } else {
     digitalWrite(ledPin, LOW);   // Turn off the LED
     Serial.println("No touch detected.");
